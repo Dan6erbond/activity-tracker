@@ -18,4 +18,6 @@ jobs:
         with:
           node-version: "14"
       - run: npm ci
+        working-directory: ./svelte-client
       - run: npm run lint
+        working-directory: ./svelte-client
